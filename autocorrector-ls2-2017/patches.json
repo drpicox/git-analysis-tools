@@ -1,0 +1,188 @@
+{
+  "LS2-Austin": [
+    {
+      "sha": "66f52be5fbf8bdc532eddc7d502c6c667b06e50c",
+
+      "date": "2017-10-13T16:52:09.000Z",
+      "subject": "[PATCH 1/2] Player instantiation",
+      "diffs": [
+        {
+          "from": "",
+          "to": "src/main/java/com/mmo/austin/domain/Player.java",
+          "chunks": [
+            {
+              "content": "@@ -0,0 +1,5 @@",
+              "changes": [
+                {
+                  "type": "add",
+                  "add": true,
+                  "newLine": 1,
+                  "position": 1,
+                  "content": "+package com.mmo.austin.domain;"
+                },
+                {
+                  "type": "add",
+                  "add": true,
+                  "newLine": 2,
+                  "position": 2,
+                  "content": "+"
+                },
+                {
+                  "type": "add",
+                  "add": true,
+                  "newLine": 3,
+                  "position": 3,
+                  "content": "+public class Player {"
+                },
+                {
+                  "type": "add",
+                  "add": true,
+                  "newLine": 4,
+                  "position": 4,
+                  "content": "+"
+                },
+                {
+                  "type": "add",
+                  "add": true,
+                  "newLine": 5,
+                  "position": 5,
+                  "content": "+}"
+                }
+              ],
+              "oldStart": 0,
+              "oldLines": 0,
+              "newStart": 1,
+              "newLines": 5
+            }
+          ],
+          "deletions": 0,
+          "additions": 5,
+          "new": true,
+          "index": [
+            "0000000..8bebe5d"
+          ]
+        },
+        {
+          "from": "",
+          "to": "src/test/java/com/mmo/austin/domain/PlayerTest.java",
+          "chunks": [
+            {
+              "content": "@@ -0,0 +1,14 @@",
+              "changes": [
+                {
+                  "type": "add",
+                  "add": true,
+                  "newLine": 1,
+                  "position": 1,
+                  "content": "+package com.mmo.austin.domain;"
+                },
+                {
+                  "type": "add",
+                  "add": true,
+                  "newLine": 2,
+                  "position": 2,
+                  "content": "+"
+                },
+                {
+                  "type": "add",
+                  "add": true,
+                  "newLine": 3,
+                  "position": 3,
+                  "content": "+import org.junit.Test;"
+                },
+                {
+                  "type": "add",
+                  "add": true,
+                  "newLine": 4,
+                  "position": 4,
+                  "content": "+"
+                },
+                {
+                  "type": "add",
+                  "add": true,
+                  "newLine": 5,
+                  "position": 5,
+                  "content": "+import static org.junit.Assert.*;"
+                },
+                {
+                  "type": "add",
+                  "add": true,
+                  "newLine": 6,
+                  "position": 6,
+                  "content": "+"
+                },
+                {
+                  "type": "add",
+                  "add": true,
+                  "newLine": 7,
+                  "position": 7,
+                  "content": "+public class PlayerTest {"
+                },
+                {
+                  "type": "add",
+                  "add": true,
+                  "newLine": 8,
+                  "position": 8,
+                  "content": "+"
+                },
+                {
+                  "type": "add",
+                  "add": true,
+                  "newLine": 9,
+                  "position": 9,
+                  "content": "+    @Test"
+                },
+                {
+                  "type": "add",
+                  "add": true,
+                  "newLine": 10,
+                  "position": 10,
+                  "content": "+    public void instance(){"
+                },
+                {
+                  "type": "add",
+                  "add": true,
+                  "newLine": 11,
+                  "position": 11,
+                  "content": "+        Player player = new Player();"
+                },
+                {
+                  "type": "add",
+                  "add": true,
+                  "newLine": 12,
+                  "position": 12,
+                  "content": "+    }"
+                },
+                {
+                  "type": "add",
+                  "add": true,
+                  "newLine": 13,
+                  "position": 13,
+                  "content": "+"
+                },
+                {
+                  "type": "add",
+                  "add": true,
+                  "newLine": 14,
+                  "position": 14,
+                  "content": "+}"
+                }
+              ],
+              "oldStart": 0,
+              "oldLines": 0,
+              "newStart": 1,
+              "newLines": 14
+            }
+          ],
+          "deletions": 0,
+          "additions": 14,
+          "new": true,
+          "index": [
+            "0000000..4e15ffc"
+          ]
+        }
+      ]
+    },
+    {
+      "sha": "6be52a6eba1eda4ed258ef7e06189809c95bd6f4",
+      "user": "Sergi B <sergibernaus@yahoo.es>",

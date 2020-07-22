@@ -1,0 +1,761 @@
+[
+  {
+    "hash": "dff8d59784171a83b09da89c9177a685774dba06",
+    "author": "Author: David Rodenas <david.rodenas@gmail.ciom>",
+    "date": 1541686937000,
+    "diff": [
+      {
+        "from": "/dev/null",
+        "to": "a.md",
+        "chunks": [
+          {
+            "content": "@@ -0,0 +1,4 @@",
+            "changes": [
+              {
+                "type": "add",
+                "add": true,
+                "newLine": 1,
+                "position": 1,
+                "content": "+Hello"
+              },
+              {
+                "type": "add",
+                "add": true,
+                "newLine": 2,
+                "position": 2,
+                "content": "+World"
+              },
+              {
+                "type": "add",
+                "add": true,
+                "newLine": 3,
+                "position": 3,
+                "content": "+"
+              },
+              {
+                "type": "add",
+                "add": true,
+                "newLine": 4,
+                "position": 4,
+                "content": "+This is a line"
+              }
+            ],
+            "oldStart": 0,
+            "oldLines": 0,
+            "newStart": 1,
+            "newLines": 4
+          }
+        ],
+        "deletions": 0,
+        "additions": 4,
+        "new": true,
+        "index": [
+          "0000000..1de968e"
+        ]
+      }
+    ]
+  },
+  {
+    "hash": "89d3ffbd11ef461e586429eee4031e46a6e88aaa",
+    "author": "Author: David Rodenas <david.rodenas@gmail.ciom>",
+    "date": 1541686960000,
+    "diff": [
+      {
+        "from": "a.md",
+        "to": "a.md",
+        "chunks": [
+          {
+            "content": "@@ -2,3 +2,4 @@ Hello",
+            "changes": [
+              {
+                "type": "normal",
+                "normal": true,
+                "oldLine": 2,
+                "newLine": 2,
+                "position": 1,
+                "content": " World"
+              },
+              {
+                "type": "normal",
+                "normal": true,
+                "oldLine": 3,
+                "newLine": 3,
+                "position": 2,
+                "content": " This is a line"
+              },
+              {
+                "type": "add",
+                "add": true,
+                "newLine": 4,
+                "position": 3,
+                "content": "+This is a second line"
+              }
+            ],
+            "oldStart": 2,
+            "oldLines": 3,
+            "newStart": 2,
+            "newLines": 4
+          }
+        ],
+        "deletions": 0,
+        "additions": 1,
+        "index": [
+          "1de968e..8cd46e2",
+          "100644"
+        ]
+      }
+    ]
+  },
+  {
+    "hash": "949604b5cd6bc147244531a33da7bb29a6db2158",
+    "author": "Author: John <john@ex.co>",
+    "date": 1541687037000,
+    "diff": [
+      {
+        "from": "a.md",
+        "to": "a.md",
+        "chunks": [
+          {
+            "content": "@@ -1,5 +1,7 @@",
+            "changes": [
+              {
+                "type": "normal",
+                "normal": true,
+                "oldLine": 1,
+                "newLine": 1,
+                "position": 1,
+                "content": " Hello"
+              },
+              {
+                "type": "normal",
+                "normal": true,
+                "oldLine": 2,
+                "newLine": 2,
+                "position": 2,
+                "content": " World"
+              },
+              {
+                "type": "add",
+                "add": true,
+                "newLine": 3,
+                "position": 3,
+                "content": "+A new header"
+              },
+              {
+                "type": "add",
+                "add": true,
+                "newLine": 4,
+                "position": 4,
+                "content": "+"
+              },
+              {
+                "type": "normal",
+                "normal": true,
+                "oldLine": 3,
+                "newLine": 5,
+                "position": 5,
+                "content": " This is a line"
+              },
+              {
+                "type": "normal",
+                "normal": true,
+                "oldLine": 4,
+                "newLine": 6,
+                "position": 6,
+                "content": " This is a second line"
+              }
+            ],
+            "oldStart": 1,
+            "oldLines": 5,
+            "newStart": 1,
+            "newLines": 7
+          }
+        ],
+        "deletions": 0,
+        "additions": 2,
+        "index": [
+          "8cd46e2..bbc44f5",
+          "100644"
+        ]
+      }
+    ]
+  },
+  {
+    "hash": "a03db55a356829623686763fce39a314749feb53",
+    "author": "Author: David Rodenas <david.rodenas@gmail.ciom>",
+    "date": 1541687094000,
+    "diff": [
+      {
+        "from": "/dev/null",
+        "to": "b.md",
+        "chunks": [
+          {
+            "content": "@@ -0,0 +1,3 @@",
+            "changes": [
+              {
+                "type": "add",
+                "add": true,
+                "newLine": 1,
+                "position": 1,
+                "content": "+Second"
+              },
+              {
+                "type": "add",
+                "add": true,
+                "newLine": 2,
+                "position": 2,
+                "content": "+file"
+              },
+              {
+                "type": "add",
+                "add": true,
+                "newLine": 3,
+                "position": 3,
+                "content": "+"
+              }
+            ],
+            "oldStart": 0,
+            "oldLines": 0,
+            "newStart": 1,
+            "newLines": 3
+          }
+        ],
+        "deletions": 0,
+        "additions": 3,
+        "new": true,
+        "index": [
+          "0000000..58c4183"
+        ]
+      }
+    ]
+  },
+  {
+    "hash": "e44f0ade65044798b7078775bd630b502085a030",
+    "author": "Author: David Rodenas <david.rodenas@gmail.ciom>",
+    "date": 1541687121000,
+    "diff": [
+      {
+        "from": "b.md",
+        "to": "c.md",
+        "chunks": [],
+        "deletions": 0,
+        "additions": 0
+      }
+    ]
+  },
+  {
+    "hash": "6b17bf5665c1d8dd579dcc12196cffb3a0e406e3",
+    "author": "Author: David Rodenas <david.rodenas@gmail.ciom>",
+    "date": 1541687271000,
+    "diff": [
+      {
+        "from": "c.md",
+        "to": "/dev/null",
+        "chunks": [
+          {
+            "content": "@@ -1,3 +0,0 @@",
+            "changes": [
+              {
+                "type": "del",
+                "del": true,
+                "oldLine": 1,
+                "position": 1,
+                "content": "-Second"
+              },
+              {
+                "type": "del",
+                "del": true,
+                "oldLine": 2,
+                "position": 2,
+                "content": "-file"
+              },
+              {
+                "type": "del",
+                "del": true,
+                "oldLine": 3,
+                "position": 3,
+                "content": "-"
+              }
+            ],
+            "oldStart": 1,
+            "oldLines": 3,
+            "newStart": 0,
+            "newLines": 0
+          }
+        ],
+        "deletions": 3,
+        "additions": 0,
+        "deleted": true,
+        "index": [
+          "58c4183..0000000"
+        ]
+      },
+      {
+        "from": "/dev/null",
+        "to": "d.md",
+        "chunks": [
+          {
+            "content": "@@ -0,0 +1,4 @@",
+            "changes": [
+              {
+                "type": "add",
+                "add": true,
+                "newLine": 1,
+                "position": 1,
+                "content": "+Second"
+              },
+              {
+                "type": "add",
+                "add": true,
+                "newLine": 2,
+                "position": 2,
+                "content": "+file"
+              },
+              {
+                "type": "add",
+                "add": true,
+                "newLine": 3,
+                "position": 3,
+                "content": "+"
+              },
+              {
+                "type": "add",
+                "add": true,
+                "newLine": 4,
+                "position": 4,
+                "content": "+With more lines"
+              }
+            ],
+            "oldStart": 0,
+            "oldLines": 0,
+            "newStart": 1,
+            "newLines": 4
+          }
+        ],
+        "deletions": 0,
+        "additions": 4,
+        "new": true,
+        "index": [
+          "0000000..99a3884"
+        ]
+      }
+    ]
+  },
+  {
+    "hash": "19f790795e447d8fcf2f83da93c6ea08c31e2aef",
+    "author": "Author: David Rodenas <david.rodenas@gmail.ciom>",
+    "date": 1541687309000,
+    "diff": [
+      {
+        "from": "d.md",
+        "to": "e.md",
+        "chunks": [
+          {
+            "content": "@@ -1,4 +1,4 @@",
+            "changes": [
+              {
+                "type": "normal",
+                "normal": true,
+                "oldLine": 1,
+                "newLine": 1,
+                "position": 1,
+                "content": " Second"
+              },
+              {
+                "type": "del",
+                "del": true,
+                "oldLine": 2,
+                "position": 2,
+                "content": "-file"
+              },
+              {
+                "type": "add",
+                "add": true,
+                "newLine": 2,
+                "position": 3,
+                "content": "+renamed file"
+              },
+              {
+                "type": "normal",
+                "normal": true,
+                "oldLine": 3,
+                "newLine": 3,
+                "position": 4,
+                "content": " With more lines"
+              }
+            ],
+            "oldStart": 1,
+            "oldLines": 4,
+            "newStart": 1,
+            "newLines": 4
+          }
+        ],
+        "deletions": 1,
+        "additions": 1,
+        "index": [
+          "99a3884..4e36afe",
+          "100644"
+        ]
+      }
+    ]
+  },
+  {
+    "hash": "34d27d4600a16115c8933bf67f99544e27824324",
+    "author": "Author: David Rodenas <david.rodenas@gmail.ciom>",
+    "date": 1541696645000,
+    "diff": [
+      {
+        "from": "/dev/null",
+        "to": "x.md",
+        "chunks": [
+          {
+            "content": "@@ -0,0 +1,2 @@",
+            "changes": [
+              {
+                "type": "add",
+                "add": true,
+                "newLine": 1,
+                "position": 1,
+                "content": "+parallel"
+              },
+              {
+                "type": "add",
+                "add": true,
+                "newLine": 2,
+                "position": 2,
+                "content": "+file"
+              }
+            ],
+            "oldStart": 0,
+            "oldLines": 0,
+            "newStart": 1,
+            "newLines": 2
+          }
+        ],
+        "deletions": 0,
+        "additions": 2,
+        "new": true,
+        "index": [
+          "0000000..936a147"
+        ]
+      }
+    ]
+  },
+  {
+    "hash": "a41f2391093d1b2625734bed446a0a4c43dc6e40",
+    "author": "Author: David Rodenas <david.rodenas@gmail.ciom>",
+    "date": 1541696681000,
+    "diff": [
+      {
+        "from": "e.md",
+        "to": "e.md",
+        "chunks": [
+          {
+            "content": "@@ -1,4 +1,4 @@",
+            "changes": [
+              {
+                "type": "normal",
+                "normal": true,
+                "oldLine": 1,
+                "newLine": 1,
+                "position": 1,
+                "content": " Second"
+              },
+              {
+                "type": "del",
+                "del": true,
+                "oldLine": 2,
+                "position": 2,
+                "content": "-renamed file"
+              },
+              {
+                "type": "add",
+                "add": true,
+                "newLine": 2,
+                "position": 3,
+                "content": "+changing contents"
+              },
+              {
+                "type": "normal",
+                "normal": true,
+                "oldLine": 3,
+                "newLine": 3,
+                "position": 4,
+                "content": " With more lines"
+              }
+            ],
+            "oldStart": 1,
+            "oldLines": 4,
+            "newStart": 1,
+            "newLines": 4
+          }
+        ],
+        "deletions": 1,
+        "additions": 1,
+        "index": [
+          "4e36afe..b05961a",
+          "100644"
+        ]
+      }
+    ]
+  },
+  {
+    "hash": "b6ff22876db04b4761f10dcd4251bab971413ad6",
+    "author": "Author: David Rodenas <david.rodenas@gmail.ciom>",
+    "date": 1541696715000,
+    "diff": [
+      {
+        "from": "a.md",
+        "to": "a.md",
+        "chunks": [
+          {
+            "content": "@@ -2,6 +2,7 @@ Hello",
+            "changes": [
+              {
+                "type": "normal",
+                "normal": true,
+                "oldLine": 2,
+                "newLine": 2,
+                "position": 1,
+                "content": " World"
+              },
+              {
+                "type": "normal",
+                "normal": true,
+                "oldLine": 3,
+                "newLine": 3,
+                "position": 2,
+                "content": " A new header"
+              },
+              {
+                "type": "add",
+                "add": true,
+                "newLine": 4,
+                "position": 3,
+                "content": "+changed in parallel"
+              },
+              {
+                "type": "normal",
+                "normal": true,
+                "oldLine": 4,
+                "newLine": 5,
+                "position": 4,
+                "content": " This is a line"
+              },
+              {
+                "type": "normal",
+                "normal": true,
+                "oldLine": 5,
+                "newLine": 6,
+                "position": 5,
+                "content": " This is a second line"
+              }
+            ],
+            "oldStart": 2,
+            "oldLines": 6,
+            "newStart": 2,
+            "newLines": 7
+          }
+        ],
+        "deletions": 0,
+        "additions": 1,
+        "index": [
+          "bbc44f5..81fa312",
+          "100644"
+        ]
+      }
+    ]
+  },
+  {
+    "hash": "36bedfbd8b74be450474b90f2fdf2d1f7fb7bc6a",
+    "author": "Author: David Rodenas <david.rodenas@gmail.ciom>",
+    "date": 1541747615000,
+    "diff": [
+      {
+        "from": "a.md",
+        "to": "a.md",
+        "chunks": [
+          {
+            "content": "@@ -3,6 +3,7 @@ World",
+            "changes": [
+              {
+                "type": "normal",
+                "normal": true,
+                "oldLine": 3,
+                "newLine": 3,
+                "position": 1,
+                "content": " A new header"
+              },
+              {
+                "type": "normal",
+                "normal": true,
+                "oldLine": 4,
+                "newLine": 4,
+                "position": 2,
+                "content": " changed in parallel"
+              },
+              {
+                "type": "add",
+                "add": true,
+                "newLine": 5,
+                "position": 3,
+                "content": "+added this line in parallel"
+              },
+              {
+                "type": "normal",
+                "normal": true,
+                "oldLine": 5,
+                "newLine": 6,
+                "position": 4,
+                "content": " This is a line"
+              },
+              {
+                "type": "normal",
+                "normal": true,
+                "oldLine": 6,
+                "newLine": 7,
+                "position": 5,
+                "content": " This is a second line"
+              }
+            ],
+            "oldStart": 3,
+            "oldLines": 6,
+            "newStart": 3,
+            "newLines": 7
+          }
+        ],
+        "deletions": 0,
+        "additions": 1,
+        "index": [
+          "81fa312..bfc26b2",
+          "100644"
+        ]
+      }
+    ]
+  },
+  {
+    "hash": "e31c9717d20f8b4c76df80c579b3b1150ef5fd5e",
+    "author": "Author: David Rodenas <david.rodenas@gmail.ciom>",
+    "date": 1541747648000,
+    "diff": [
+      {
+        "from": "a.md",
+        "to": "a.md",
+        "chunks": [
+          {
+            "content": "@@ -5,4 +5,5 @@ A new header",
+            "changes": [
+              {
+                "type": "normal",
+                "normal": true,
+                "oldLine": 5,
+                "newLine": 5,
+                "position": 1,
+                "content": " changed in parallel"
+              },
+              {
+                "type": "normal",
+                "normal": true,
+                "oldLine": 6,
+                "newLine": 6,
+                "position": 2,
+                "content": " This is a line"
+              },
+              {
+                "type": "add",
+                "add": true,
+                "newLine": 7,
+                "position": 3,
+                "content": "+This line is inserted in master"
+              },
+              {
+                "type": "normal",
+                "normal": true,
+                "oldLine": 7,
+                "newLine": 8,
+                "position": 4,
+                "content": " This is a second line"
+              }
+            ],
+            "oldStart": 5,
+            "oldLines": 4,
+            "newStart": 5,
+            "newLines": 5
+          }
+        ],
+        "deletions": 0,
+        "additions": 1,
+        "index": [
+          "81fa312..d81de91",
+          "100644"
+        ]
+      }
+    ]
+  },
+  {
+    "hash": "ddea0f1c9c372533eaecc899c59b1bd8f866ef77",
+    "author": "Author: David Rodenas <david.rodenas@gmail.ciom>",
+    "date": 1541747706000,
+    "diff": [
+      {
+        "from": "a.md",
+        "to": "a.md",
+        "chunks": [
+          {
+            "content": "@@ -1,5 +1,5 @@",
+            "changes": [
+              {
+                "type": "normal",
+                "normal": true,
+                "oldLine": 1,
+                "newLine": 1,
+                "position": 1,
+                "content": " Hello"
+              },
+              {
+                "type": "del",
+                "del": true,
+                "oldLine": 2,
+                "position": 2,
+                "content": "-World"
+              },
+              {
+                "type": "add",
+                "add": true,
+                "newLine": 2,
+                "position": 3,
+                "content": "+Worldddddd"
+              },
+              {
+                "type": "normal",
+                "normal": true,
+                "oldLine": 3,
+                "newLine": 3,
+                "position": 4,
+                "content": " A new header"
+              },
+              {
+                "type": "normal",
+                "normal": true,
+                "oldLine": 4,
+                "newLine": 4,
+                "position": 5,
+                "content": " changed in parallel"
+              }
+            ],
+            "oldStart": 1,
+            "oldLines": 5,
+            "newStart": 1,
+            "newLines": 5
+          }
+        ],
+        "deletions": 1,
+        "additions": 1,
+        "index": [
+          "bfc26b2..ebc0461",
+          "100644"
+        ]
+      }
+    ]
+  }
+]
