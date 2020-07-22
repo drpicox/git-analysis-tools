@@ -12,7 +12,7 @@
     "diffparser": "^2.0.1",
     "eslint": "^5.8.0",
     "fs-readfile-promise": "^3.0.1",
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.19",
     "nodegit": "^0.23.0"
   },
   "devDependencies": {
