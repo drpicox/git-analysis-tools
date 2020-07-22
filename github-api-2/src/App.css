@@ -1,0 +1,25 @@
+html, body {
+  margin: 0;
+  height: 100%;
+}
+
+#root {
+  min-height: 100%;
+}
+#root, .column {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex {
+  flex: 1
+}
+
+.graphiql-container {
+  flex: 1
+}

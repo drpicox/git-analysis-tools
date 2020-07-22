@@ -1,0 +1,21 @@
+{
+  "name": "git-analyzer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "diffparser": "^2.0.1",
+    "eslint": "^5.8.0",
+    "fs-readfile-promise": "^3.0.1",
+    "lodash": "^4.17.11",
+    "nodegit": "^0.23.0"
+  },
+  "devDependencies": {
+    "git-blame": "^1.4.0"
+  }
+}

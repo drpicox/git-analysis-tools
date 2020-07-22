@@ -1,0 +1,47 @@
+From 66f52be5fbf8bdc532eddc7d502c6c667b06e50c Mon Sep 17 00:00:00 2001
+From: 
+Date: Fri, 13 Oct 2017 18:52:09 +0200
+Subject: [PATCH 1/2] Player instantiation
+
+---
+ src/main/java/com/mmo/austin/domain/Player.java     |  5 +++++
+ src/test/java/com/mmo/austin/domain/PlayerTest.java | 14 ++++++++++++++
+ 2 files changed, 19 insertions(+)
+ create mode 100644 src/main/java/com/mmo/austin/domain/Player.java
+ create mode 100644 src/test/java/com/mmo/austin/domain/PlayerTest.java
+
+diff --git a/src/main/java/com/mmo/austin/domain/Player.java b/src/main/java/com/mmo/austin/domain/Player.java
+new file mode 100644
+index 0000000..8bebe5d
+--- /dev/null
++++ b/src/main/java/com/mmo/austin/domain/Player.java
+@@ -0,0 +1,5 @@
++package com.mmo.austin.domain;
++
++public class Player {
++
++}
+diff --git a/src/test/java/com/mmo/austin/domain/PlayerTest.java b/src/test/java/com/mmo/austin/domain/PlayerTest.java
+new file mode 100644
+index 0000000..4e15ffc
+--- /dev/null
++++ b/src/test/java/com/mmo/austin/domain/PlayerTest.java
+@@ -0,0 +1,14 @@
++package com.mmo.austin.domain;
++
++import org.junit.Test;
++
++import static org.junit.Assert.*;
++
++public class PlayerTest {
++
++    @Test
++    public void instance(){
++        Player player = new Player();
++    }
++
++}
+\ No newline at end of file
+
+From 6be52a6eba1eda4ed258ef7e06189809c95bd6f4 Mon Sep 17 00:00:00 2001
+From: 

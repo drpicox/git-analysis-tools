@@ -1,0 +1,50 @@
+{
+  "LS2-Chicago": {
+    "issues": [
+      {
+        "url": "https://api.github.com/repos/TC-LabSoft2/LS2-Chicago/issues/256",
+        "repository_url": "https://api.github.com/repos/TC-LabSoft2/LS2-Chicago",
+        "labels_url": "https://api.github.com/repos/TC-LabSoft2/LS2-Chicago/issues/256/labels{/name}",
+        "comments_url": "https://api.github.com/repos/TC-LabSoft2/LS2-Chicago/issues/256/comments",
+        "events_url": "https://api.github.com/repos/TC-LabSoft2/LS2-Chicago/issues/256/events",
+        "html_url": "https://github.com/TC-LabSoft2/LS2-Chicago/pull/256",
+        "id": 281191830,
+        "number": 256,
+        "title": "Release 1.1.0-beta",
+        "user": {
+
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [],
+        "state": "closed",
+        "locked": false,
+        "assignee": {
+
+          "type": "User",
+          "site_admin": false
+        },
+        "assignees": [
+          {
+
+            "type": "User",
+            "site_admin": false
+          }
+        ],
+        "milestone": null,
+        "comments": 0,
+        "created_at": "2017-12-11T22:36:58Z",
+        "updated_at": "2017-12-11T23:31:07Z",
+        "closed_at": "2017-12-11T23:30:46Z",
+        "author_association": "CONTRIBUTOR",
+        "pull_request": {
+          "url": "https://api.github.com/repos/TC-LabSoft2/LS2-Chicago/pulls/256",
+          "html_url": "https://github.com/TC-LabSoft2/LS2-Chicago/pull/256",
+          "diff_url": "https://github.com/TC-LabSoft2/LS2-Chicago/pull/256.diff",
+          "patch_url": "https://github.com/TC-LabSoft2/LS2-Chicago/pull/256.patch"
+        },
+        "body": "Release [RC#1](https://github.com/TC-LabSoft2/LS2-Chicago/releases/tag/v1.1.0-rc.1) to 1.1.0-beta version."
+      },
+    ]
+  }
+}

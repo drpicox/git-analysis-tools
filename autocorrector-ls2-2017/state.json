@@ -1,0 +1,37 @@
+{
+  "users": {
+    "2758345": {
+      "login": "drpicox",
+      "id": 2758345,
+      "avatar_url": "https://avatars2.githubusercontent.com/u/2758345?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/drpicox",
+      "html_url": "https://github.com/drpicox",
+      "followers_url": "https://api.github.com/users/drpicox/followers",
+      "following_url": "https://api.github.com/users/drpicox/following{/other_user}",
+      "gists_url": "https://api.github.com/users/drpicox/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/drpicox/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/drpicox/subscriptions",
+      "organizations_url": "https://api.github.com/users/drpicox/orgs",
+      "repos_url": "https://api.github.com/users/drpicox/repos",
+      "events_url": "https://api.github.com/users/drpicox/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/drpicox/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+
+  },
+  "weeks": [
+    "2017-09-25T22:00:00.000Z",
+    "2017-10-02T22:00:00.000Z",
+    "2017-10-09T22:00:00.000Z",
+    "2017-10-16T22:00:00.000Z",
+    "2017-10-23T22:00:00.000Z",
+    "2017-10-30T23:00:00.000Z",
+    "2017-11-06T23:00:00.000Z",
+    "2017-11-13T23:00:00.000Z",
+    "2017-11-20T23:00:00.000Z",
+    "2017-11-27T23:00:00.000Z",
+    "2017-12-04T23:00:00.000Z"
+  ]
+}

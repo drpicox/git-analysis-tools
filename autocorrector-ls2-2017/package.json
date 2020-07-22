@@ -1,0 +1,29 @@
+{
+  "name": "autocorrector-ls2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "once": "babel-node index.js",
+    "start": "nodemon index.js --exec babel-node"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "diffparser": "^2.0.0",
+    "fs-readfile-promise": "^3.0.0",
+    "fs-writefile-promise": "^2.0.0",
+    "node-fetch": "^1.7.3",
+    "normalizr": "^3.2.4"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "eslint": "^4.13.1",
+    "eslint-config-react-app": "^2.0.1",
+    "eslint-plugin-import": "^2.8.0",
+    "nodemon": "^1.13.2",
+    "prettier": "^1.9.2"
+  },
+  "description": ""
+}

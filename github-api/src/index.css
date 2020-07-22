@@ -1,0 +1,33 @@
+html {
+    display: flex;
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+    display: flex;
+    flex: 1;
+}
+
+#root {
+    flex: 1;
+    display: flex;
+}
+
+table tbody tr.odd {
+    background: #eee;
+}
+
+table thead {
+    background: #eef;
+}
+
+
+pre {
+    background: rgba(0,128,255,0.1);
+  }
+ 
+  blockquote p {
+      white-space: pre;
+  }

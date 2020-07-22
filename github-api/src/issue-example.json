@@ -1,0 +1,169 @@
+{
+  "data": {
+    "repository": {
+      "issue": {
+        "title": "Monsters with life points",
+        "number": 16,
+        "url": "https://github.com/TC-LS2/adventure-game-dublin/issues/16",
+        "author": {
+          "login": "drpicox?"
+        },
+        "body": "# Monsters with life points\r\n\r\nThe monsters are evolving to make you the most complicated game!\r\n\r\n> Cthulhu monster said: I will kill you!!!\r\n\r\n From now on you will have to take more into account the monsters resisting your attacks overtime, it will be more difficult for you to kill them.\r\n\r\n\r\n## Improved attribute (HP)\r\n\r\n\r\nThe monsters are evolving! Now each of them will have life.\r\n\r\n```\r\n> look \r\nCrystal Beach\r\nThere is one of the most beautiful beaches. \r\nThere is the mosquito monster.\r\nMonster has 1 life points\r\nPlayer has 16 life points.\r\n\r\n```\r\n\r\nIf your attack is superior to the life of the monster you will kill him as usual as before.\r\n\r\n```\r\n> attack\r\nCrystal Beach\r\nThere is one of the most beautiful beaches.\r\nYou killed the monster.\r\nPlayer life points: 16.\r\n\r\n```\r\n\r\nOr another example:\r\n\r\n```\r\n> look \r\nCupboard\r\nYou are at the main room of your home. \r\nThere is the fly monster.\r\nMonster has 15 life points\r\nPlayer has 16 life points.\r\n\r\n```\r\n```\r\n> attack\r\nCupboard\r\nYou are at the main room of your home. \r\nMonster has 3 life points\r\nPlayer life points: 16.\r\n\r\n```\r\n```\r\n> attack\r\nCupboard\r\nYou are at the main room of your home. \r\nYou killed the monster.\r\nPlayer life points: 16.\r\n\r\n```\r\n\r\nIn case your attack does not exceed their life, the monster will lose as many points of life as your attacking force.\r\n\r\n```\r\n> look \r\nBarn\r\nYou are at the main room of your home. \r\nThere is the Cthulhu monster.\r\nMonster has 99 life points\r\nPlayer has 16 life points.\r\n\r\n> attack\r\nBarn\r\nYou are at the main room of your home. \r\nYou attacked the monster.\r\nMonster has 89 life points\r\nPlayer life points: 5.\r\n```\r\n\r\nIn this situation you will have to decide what is best for you, if you continue attacking or continue looking for objects to improve your attack.\r\n\r\n> Your game, your life. YOU DECIDE",
+        "userContentEdits": {
+          "nodes": [
+            {
+              "diff": "# Monsters with life points\r\n\r\nThe monsters are evolving to make you the most complicated game!\r\n\r\n> Cthulhu monster said: I will kill you!!!\r\n\r\n From now on you will have to take more into account the monsters resisting your attacks overtime, it will be more difficult for you to kill them.\r\n\r\n\r\n## Improved attribute (HP)\r\n\r\n\r\nThe monsters are evolving! Now each of them will have life.\r\n\r\n```\r\n> look \r\nCrystal Beach\r\nThere is one of the most beautiful beaches. \r\nThere is the mosquito monster.\r\nMonster has 1 life points\r\nPlayer has 16 life points.\r\n\r\n```\r\n\r\nIf your attack is superior to the life of the monster you will kill him as usual as before.\r\n\r\n```\r\n> attack\r\nCrystal Beach\r\nThere is one of the most beautiful beaches.\r\nYou killed the monster.\r\nPlayer life points: 16.\r\n\r\n```\r\n\r\nOr another example:\r\n\r\n```\r\n> look \r\nCupboard\r\nYou are at the main room of your home. \r\nThere is the fly monster.\r\nMonster has 15 life points\r\nPlayer has 16 life points.\r\n\r\n```\r\n```\r\n> attack\r\nCupboard\r\nYou are at the main room of your home. \r\nMonster has 3 life points\r\nPlayer life points: 16.\r\n\r\n```\r\n```\r\n> attack\r\nCupboard\r\nYou are at the main room of your home. \r\nYou killed the monster.\r\nPlayer life points: 16.\r\n\r\n```\r\n\r\nIn case your attack does not exceed their life, the monster will lose as many points of life as your attacking force.\r\n\r\n```\r\n> look \r\nBarn\r\nYou are at the main room of your home. \r\nThere is the Cthulhu monster.\r\nMonster has 99 life points\r\nPlayer has 16 life points.\r\n\r\n> attack\r\nBarn\r\nYou are at the main room of your home. \r\nYou attacked the monster.\r\nMonster has 89 life points\r\nPlayer life points: 5.\r\n```\r\n\r\nIn this situation you will have to decide what is best for you, if you continue attacking or continue looking for objects to improve your attack.\r\n\r\n> Your game, your life. YOU DECIDE",
+              "editor": {
+                "login": "drpicox?"
+              }
+            },
+            {
+              "diff": "# Monsters with life points\r\n\r\nThe monsters are evolving to make you the most complicated game!\r\n\r\n> Cthulhu monster said: I will kill you!!!\r\n\r\n From now on you will have to take more into account the monsters resisting your attacks overtime, it will be more difficult for you to kill them.\r\n\r\n\r\n## Improved attribute (HP)\r\n\r\n\r\nThe monsters are evolving! Now each of them will have life.\r\n\r\n```\r\n> look \r\nHome sweet home\r\nYou are at the main room of your home. \r\nThere is the fly monster.\r\nMonster has 4 life points\r\nPlayer has 16 life points.\r\n\r\n```\r\n\r\nIf your attack is superior to the life of the monster you will kill him as usual as before.\r\n\r\n```\r\n> attack\r\nHome sweet home\r\nYou are at the main room of your home. \r\nYou killed the monster.\r\nPlayer life points: 16.\r\n\r\n```\r\n\r\nOr another example:\r\n\r\n```\r\n> look \r\nHome sweet home\r\nYou are at the main room of your home. \r\nThere is the fly monster.\r\nMonster has 15 life points\r\nPlayer has 16 life points.\r\n\r\n```\r\n```\r\n> attack\r\nHome sweet home\r\nYou are at the main room of your home. \r\nMonster has 3 life points\r\nPlayer life points: 16.\r\n\r\n```\r\n```\r\n> attack\r\nHome sweet home\r\nYou are at the main room of your home. \r\nYou killed the monster.\r\nPlayer life points: 16.\r\n\r\n```\r\n\r\nIn case your attack does not exceed their life, the monster will lose as many points of life as your attacking force.\r\n\r\n```\r\n> look \r\nBarn\r\nYou are at the main room of your home. \r\nThere is the Cthulhu monster.\r\nMonster has 99 life points\r\nPlayer has 16 life points.\r\n\r\n> attack\r\nBarn\r\nYou are at the main room of your home. \r\nYou attacked the monster.\r\nMonster has 89 life points\r\nPlayer life points: 5.\r\n```\r\n\r\nIn this situation you will have to decide what is best for you, if you continue attacking or continue looking for objects to improve your attack.\r\n\r\n> Your game, your life. YOU DECIDE",
+              "editor": {
+                "login": "drpicox?"
+              }
+            },
+            {
+              "diff": "# Monsters with life points\r\n\r\nThe monsters are evolving to make you the most complicated game!\r\n\r\n> Cthulhu monster said: I will kill you!!!\r\n\r\n From now on you will have to take more into account the monsters resisting your attacks overtime, it will be more difficult for you to kill them.\r\n\r\n\r\n## Improved attribute (HP)\r\n\r\n\r\nThe monsters are evolving! Now each of them will have life.\r\n\r\n```\r\n> look \r\nHome sweet home\r\nYou are at the main room of your home. \r\nThere is the fly monster.\r\nMonster has 4 life points\r\nPlayer has 16 life points.\r\n\r\n```\r\n\r\nIf your attack is superior to the life of the monster you will kill him as usual as before.\r\n\r\n```\r\n> attack\r\nHome sweet home\r\nYou are at the main room of your home. \r\nYou killed the monster.\r\nPlayer life points: 16.\r\n\r\n```\r\n\r\n\r\nIn case your attack does not exceed their life, the monster will lose as many points of life as your attacking force.\r\n\r\n```\r\n> look \r\nBarn\r\nYou are at the main room of your home. \r\nThere is the Cthulhu monster.\r\nMonster has 99 life points\r\nPlayer has 16 life points.\r\n\r\n> attack\r\nBarn\r\nYou are at the main room of your home. \r\nYou attacked the monster.\r\nMonster has 89 life points\r\nPlayer life points: 5.\r\n```\r\n\r\nIn this situation you will have to decide what is best for you, if you continue attacking or continue looking for objects to improve your attack.\r\n\r\n> Your game, your life. YOU DECIDE",
+              "editor": {
+                "login": "drpicox?"
+              }
+            },
+            {
+              "diff": "# Monsters with life points\r\n\r\nThe monsters are evolving to make you the most complicated game!\r\n\r\n> Cthulhu monster said: I will kill you!!!\r\n\r\n From now on you will have to take more into account the monsters resisting your attacks overtime, it will be more difficult for you to kill them.\r\n\r\n\r\n## Improved attribute (HP)\r\n\r\n\r\nThe monsters are evolving! Now each of them will have life.\r\n\r\n```\r\n> look \r\nHome sweet home\r\nYou are at the main room of your home. There is a \r\ndisturbing little noise around.\r\nThere is the fly monster.\r\nMonster has 4 life points\r\nPlayer has 16 life points.\r\n\r\n```\r\n\r\nIf your attack is superior to the life of the monster you will kill him as usual as before.\r\n\r\n```\r\n> attack\r\nHome sweet home\r\nYou are at the main room of your home. There is a \r\ndisturbing little noise around.\r\nYou killed the monster.\r\nPlayer life points: 16.\r\n\r\n```\r\n\r\n\r\nIn case your attack does not exceed their life, the monster will lose as many points of life as your attacking force.\r\n\r\n```\r\n> look \r\nBarn\r\nYou are at the main room of your home. There is a \r\ndisturbing little noise around.\r\nThere is the Cthulhu monster.\r\nMonster has 99 life points\r\nPlayer has 16 life points.\r\n\r\n> attack\r\nBarn\r\nYou are at the main room of your home. There is a \r\ndisturbing little noise around.\r\nYou attacked the monster.\r\nMonster has 89 life points\r\nPlayer life points: 5.\r\n```\r\n\r\nIn this situation you will have to decide what is best for you, if you continue attacking or continue looking for objects to improve your attack.\r\n\r\n> Your game, your life. YOU DECIDE",
+              "editor": {
+                "login": "drpicox?"
+              }
+            },
+            {
+              "diff": "# Monsters with life points\r\n\r\nThe monsters are evolving to make you the most complicated game!\r\n\r\n> Cthulhu monster said: I will kill you!!!\r\n\r\n From now on you will have to take more into account the monsters resisting your attacks overtime, it will be more difficult for you to kill them.\r\n\r\n\r\n## Improved attribute (HP)\r\n\r\n\r\nThe monsters are evolving! Now each of them will have life.\r\n\r\n```\r\n> look \r\nHome sweet home\r\nYou are at the main room of your home. There is a \r\ndisturbing little noise around.\r\nExits: east.\r\nThere is the fly monster.\r\nMonster has 4 life points\r\nPlayer has 16 life points.\r\n\r\n```\r\n\r\nIf your attack is superior to the life of the monster you will kill him as usual as before.\r\n\r\n```\r\n> attack\r\nHome sweet home\r\nYou are at the main room of your home. There is a \r\ndisturbing little noise around.\r\nExits: east.\r\nYou killed the monster.\r\nPlayer life points: 16.\r\n\r\n```\r\n\r\n\r\nIn case your attack does not exceed their life, the monster will lose as many points of life as your attacking force.\r\n\r\n```\r\n> look \r\nBarn\r\nYou are at the main room of your home. There is a \r\ndisturbing little noise around.\r\nExits: east.\r\nThere is the Cthulhu monster.\r\nMonster has 99 life points\r\nPlayer has 16 life points.\r\n\r\n> attack\r\nBarn\r\nYou are at the main room of your home. There is a \r\ndisturbing little noise around.\r\nExits: east.\r\nYou attacked the monster.\r\nMonster has 89 life points\r\nPlayer life points: 5.\r\n```\r\n\r\nIn this situation you will have to decide what is best for you, if you continue attacking or continue looking for objects to improve your attack.\r\n\r\n> Your game, your life. YOU DECIDE",
+              "editor": {
+                "login": "drpicox?"
+              }
+            },
+            {
+              "diff": "# Monsters with life points\r\n\r\nThe monsters are evolving to make you the most complicated game!\r\n\r\n> Cthulhu monster said: I will kill you!!!\r\n\r\n From now on you will have to take more into account the monsters resisting your attacks overtime, it will be more difficult for you to kill them.\r\n\r\n\r\n## Improved attribute (HP)\r\n\r\n\r\nThe monsters are evolving! Now each of them will have life.\r\n\r\n```\r\n> look \r\nHome sweet home\r\nYou are at the main room of your home. There is a \r\ndisturbing little noise around.\r\nExits: east.\r\nThere is the fly monster.\r\nMonster has 4 life points\r\nPlayer has 16 life points.\r\n\r\n```\r\n\r\nIf your attack is superior to the life of the monster you will kill him as usual as before.\r\n\r\n```\r\n> attack\r\nHome sweet home\r\nYou are at the main room of your home. There is a \r\ndisturbing little noise around.\r\nExits: east.\r\nYou killed the monster.\r\nPlayer life points: 16.\r\n\r\n```\r\n\r\n\r\nIn case your attack does not exceed their life, the monster will lose as many points of life as your attacking force.\r\n\r\n```\r\n> look \r\nHome sweet home\r\nYou are at the main room of your home. There is a \r\ndisturbing little noise around.\r\nExits: east.\r\nThere is the Cthulhu monster.\r\nMonster has 99 life points\r\nPlayer has 16 life points.\r\n\r\n> attack\r\nHome sweet home\r\nYou are at the main room of your home. There is a \r\ndisturbing little noise around.\r\nExits: east.\r\nYou attacked the monster.\r\nMonster has 89 life points\r\nPlayer life points: 5.\r\n```\r\n\r\nIn this situation you will have to decide what is best for you, if you continue attacking or continue looking for objects to improve your attack.\r\n\r\n> Your game, your life. YOU DECIDE",
+              "editor": {
+                "login": "drpicox?"
+              }
+            },
+            {
+              "diff": "# Monsters with life points\r\n\r\nThe monsters are evolving to make you the most complicated game!\r\n\r\n> Cthulhu monster said: I will kill you!!!\r\n\r\n From now on you will have to take more into account the monsters resisting your attacks overtime, it will be more difficult for you to kill them.\r\n\r\n\r\n## Improved attribute (HP)\r\n\r\n\r\nThe monsters are evolving! Now each of them will have life.\r\n\r\n```\r\n> look \r\nHome sweet home\r\nYou are at the main room of your home. There is a \r\ndisturbing little noise around.\r\nExits: east.\r\nThere is the fly monster.\r\nMonster has 4 life points\r\nPlayer has 16 life points.\r\n\r\n```\r\n\r\nIf your attack is superior to the life of the monster you will kill him as usual as before.\r\n\r\n```\r\n> attack\r\nHome sweet home\r\nYou are at the main room of your home. There is a \r\ndisturbing little noise around.\r\nExits: east.\r\nYou killed the monster.\r\nPlayer life points: 16.\r\n\r\n```\r\n\r\n\r\nIn case your attack does not exceed your life, the monster will lose as many points of life as your attacking force.\r\n\r\n```\r\n> look \r\nHome sweet home\r\nYou are at the main room of your home. There is a \r\ndisturbing little noise around.\r\nExits: east.\r\nThere is the Cthulhu monster.\r\nMonster has 99 life points\r\nPlayer has 16 life points.\r\n\r\n> attack\r\nHome sweet home\r\nYou are at the main room of your home. There is a \r\ndisturbing little noise around.\r\nExits: east.\r\nYou attacked the monster.\r\nMonster has 89 life points\r\nPlayer life points: 5.\r\n```\r\n\r\nIn this situation you will have to decide what is best for you, if you continue attacking or continue looking for objects to improve your attack.\r\n\r\n> Your game, your life. YOU DECIDE",
+              "editor": {
+                "login": "drpicox?"
+              }
+            },
+            {
+              "diff": "# Monsters with life points\r\n\r\nThe monsters are evolving to make you the most complicated game!\r\n\r\n> Cthulhu monster said: I will kill you!!!\r\n\r\n From now on you will have to take more into account the monsters resisting your attacks overtime, it will be more difficult for you to kill them.\r\n\r\n\r\n## Improved attribute (HP)\r\n\r\n\r\nEvery monster is in a process of evolution! Now each of them will have life.\r\n\r\n```\r\n> look \r\nHome sweet home\r\nYou are at the main room of your home. There is a \r\ndisturbing little noise around.\r\nExits: east.\r\nThere is the fly monster.\r\nMonster has 4 life points\r\nPlayer has 16 life points.\r\n\r\n```\r\n\r\nIf your attack is superior to the life of the monster you will kill him as usual as before.\r\n\r\n```\r\n> attack\r\nHome sweet home\r\nYou are at the main room of your home. There is a \r\ndisturbing little noise around.\r\nExits: east.\r\nYou killed the monster.\r\nPlayer life points: 16.\r\n\r\n```\r\n\r\n\r\nIn case your attack does not exceed your life, the monster will lose as many points of life as your attacking force.\r\n\r\n```\r\n> look \r\nHome sweet home\r\nYou are at the main room of your home. There is a \r\ndisturbing little noise around.\r\nExits: east.\r\nThere is the Cthulhu monster.\r\nMonster has 99 life points\r\nPlayer has 16 life points.\r\n\r\n> attack\r\nHome sweet home\r\nYou are at the main room of your home. There is a \r\ndisturbing little noise around.\r\nExits: east.\r\nYou attacked the monster.\r\nMonster has 89 life points\r\nPlayer life points: 5.\r\n```\r\n\r\nIn this situation you will have to decide what is best for you, if you continue attacking or continue looking for objects to improve your attack.\r\n\r\n> Your game, your life. YOU DECIDE",
+              "editor": {
+                "login": "drpicox?"
+              }
+            },
+            {
+              "diff": "# Monsters with life points\r\n\r\nThe monsters are evolving to make you the most complicated game!\r\n\r\n> Cthulhu monster said: I will kill you!!!\r\n\r\n From now on you will have to take more into account the monsters resisting your attacks overtime and it will be more difficult for you to kill them.\r\n\r\n\r\n## Improved attribute (HP)\r\n\r\n\r\nEvery monster is in a process of evolution! Now each of them will have life.\r\n\r\n```\r\n> look \r\nHome sweet home\r\nYou are at the main room of your home. There is a \r\ndisturbing little noise around.\r\nExits: east.\r\nThere is the fly monster.\r\nMonster has 4 life points\r\nPlayer has 16 life points.\r\n\r\n```\r\n\r\nIf your attack is superior to the life of the monster you will kill him as usual as before.\r\n\r\n```\r\n> attack\r\nHome sweet home\r\nYou are at the main room of your home. There is a \r\ndisturbing little noise around.\r\nExits: east.\r\nYou killed the monster.\r\nPlayer life points: 16.\r\n\r\n```\r\n\r\n\r\nIn case your attack does not exceed your life, the monster will lose as many points of life as your attacking force.\r\n\r\n```\r\n> look \r\nHome sweet home\r\nYou are at the main room of your home. There is a \r\ndisturbing little noise around.\r\nExits: east.\r\nThere is the Cthulhu monster.\r\nMonster has 99 life points\r\nPlayer has 16 life points.\r\n\r\n> attack\r\nHome sweet home\r\nYou are at the main room of your home. There is a \r\ndisturbing little noise around.\r\nExits: east.\r\nYou attacked the monster.\r\nMonster has 89 life points\r\nPlayer life points: 5.\r\n```\r\n\r\nIn this situation you will have to decide what is best for you, if you continue attacking or continue looking for objects to improve your attack.\r\n\r\n> Your game, your life. YOU DECIDE",
+              "editor": {
+                "login": "drpicox?"
+              }
+            },
+            {
+              "diff": "# Monsters with life points\r\n\r\nThe monsters are evolving to make you the most complicated game!\r\n\r\n> Cthulhu monster said: I will kill you!!!\r\n\r\n From now on you will have to take more into account since, the monsters over time resisting your attacks and it will be more difficult for you to kill them.\r\n\r\n\r\n## Improved attribute (HP)\r\n\r\n\r\nEvery monster is in a process of evolution! Now each of them will have life.\r\n\r\n```\r\n> look \r\nHome sweet home\r\nYou are at the main room of your home. There is a \r\ndisturbing little noise around.\r\nExits: east.\r\nThere is the fly monster.\r\nMonster has 4 life points\r\nPlayer has 16 life points.\r\n\r\n```\r\n\r\nIf your attack is superior to the life of the monster you will kill him as usual as before.\r\n\r\n```\r\n> attack\r\nHome sweet home\r\nYou are at the main room of your home. There is a \r\ndisturbing little noise around.\r\nExits: east.\r\nYou killed the monster.\r\nPlayer life points: 16.\r\n\r\n```\r\n\r\n\r\nIn case your attack does not exceed your life, the monster will lose as many points of life as your attacking force.\r\n\r\n```\r\n> look \r\nHome sweet home\r\nYou are at the main room of your home. There is a \r\ndisturbing little noise around.\r\nExits: east.\r\nThere is the Cthulhu monster.\r\nMonster has 99 life points\r\nPlayer has 16 life points.\r\n\r\n> attack\r\nHome sweet home\r\nYou are at the main room of your home. There is a \r\ndisturbing little noise around.\r\nExits: east.\r\nYou attacked the monster.\r\nMonster has 89 life points\r\nPlayer life points: 5.\r\n```\r\n\r\nIn this situation you will have to decide what is best for you, if you continue attacking or continue looking for objects to improve your attack.\r\n\r\n> Your game, your life. YOU DECIDE",
+              "editor": {
+                "login": "drpicox?"
+              }
+            }
+          ]
+        },
+        "labels": {
+          "nodes": [
+            {
+              "name": "weight-8"
+            }
+          ]
+        },
+        "projectCards": {
+          "nodes": [
+            {
+              "column": {
+                "name": "Annotated",
+                "url": "https://github.com/TC-LS2/adventure-game-dublin/projects/1/columns/3807822"
+              }
+            }
+          ]
+        },
+        "timelineItems": {
+          "nodes": [
+            {
+              "__typename": "AddedToProjectEvent"
+            },
+            {
+              "__typename": "LabeledEvent"
+            },
+            {
+              "__typename": "MovedColumnsInProjectEvent",
+              "actor": {
+                "login": "drpicox?"
+              },
+              "previousProjectColumnName": "Backlog",
+              "projectColumnName": "Develop"
+            },
+            {
+              "__typename": "AssignedEvent"
+            },
+            {
+              "__typename": "MovedColumnsInProjectEvent",
+              "actor": {
+                "login": "drpicox?"
+              },
+              "previousProjectColumnName": "Develop",
+              "projectColumnName": "Review"
+            },
+            {
+              "__typename": "MovedColumnsInProjectEvent",
+              "actor": {
+                "login": "drpicox?"
+              },
+              "previousProjectColumnName": "Review",
+              "projectColumnName": "Merged"
+            },
+            {
+              "__typename": "CrossReferencedEvent",
+              "source": {
+                "__typename": "PullRequest",
+                "number": 29,
+                "url": "https://github.com/TC-LS2/adventure-game-dublin/pull/29",
+                "merged": true,
+                "author": {
+                  "login": "drpicox?"
+                },
+                "reviews": {
+                  "nodes": [
+                    {
+                      "author": {
+                        "login": "drpicox?"
+                      },
+                      "state": "APPROVED"
+                    }
+                  ]
+                },
+                "mergedBy": {
+                  "login": "drpicox?"
+                },
+                "mergeCommit": {
+                  "commitUrl": "https://github.com/TC-LS2/adventure-game-dublin/commit/0291a2a3085186fb69ded2fd7722c9888adf32ba"
+                }
+              }
+            },
+            {
+              "__typename": "MovedColumnsInProjectEvent",
+              "actor": {
+                "login": "drpicox?"
+              },
+              "previousProjectColumnName": "Merged",
+              "projectColumnName": "Annotated"
+            }
+          ]
+        }
+      }
+    }
+  }
+}
