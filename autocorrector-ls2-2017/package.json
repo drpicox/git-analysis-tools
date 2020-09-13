@@ -12,7 +12,7 @@
     "diffparser": "^2.0.0",
     "fs-readfile-promise": "^3.0.0",
     "fs-writefile-promise": "^2.0.0",
-    "node-fetch": "^1.7.3",
+    "node-fetch": "^2.6.1",
     "normalizr": "^3.2.4"
   },
   "devDependencies": {
